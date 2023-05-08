@@ -34,10 +34,5 @@ app.post("/" , function(req,res){
   var item = req.body.newItem;
   items.push(item);
     res.redirect("/");
-
-
 });
-
-app.listen(3000, function(){
-  console.log("Server started on port 3000.");
 });
